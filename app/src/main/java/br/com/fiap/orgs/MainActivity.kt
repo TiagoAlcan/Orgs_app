@@ -2,6 +2,7 @@ package br.com.fiap.orgs
 
 import android.app.Activity
 import android.os.Bundle
+import android.widget.TextView
 
 
 class MainActivity : Activity () {
@@ -9,5 +10,17 @@ class MainActivity : Activity () {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Binding: processo e vinculação do
+        //codigo fonte com o arquivo de layout.
+
+        val nome = findViewById<TextView>(R.id.nome)
+        //nome.setText("Cesta de frutas")
+        nome.text = "Cesta de frutas"
+
+        val descricao = findViewById<TextView>(R.id.descricao)
+        descricao.text = "Laranja, manga e uva"
+
+        val valor = findViewById<TextView>(R.id.valor)
+        valor.text = "19.99"
     }
 }
