@@ -9,9 +9,15 @@ import br.com.fiap.orgs.model.Produto
 import br.com.fiap.orgs.ui.recycleview.adapter.ListaProdutosAdapter
 import java.math.BigDecimal
 
-
+/*
+Descrição: esta classe faz isso, aquilo
+ */
 class MainActivity : Activity () {
     @SuppressLint("MissingInflatedId")
+    /*
+    descricao: este método faz aquilo e aquilo
+    Parâmetros: o que leva de informação para que classe
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
