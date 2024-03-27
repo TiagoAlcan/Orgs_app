@@ -30,6 +30,7 @@ class MainActivity : Activity () {
             context = this,
             produtos = listOf(
                 Produto("Teste 0", "Teste Descrição 0", BigDecimal("19.90")),
+                //Produto produto1 = new Produto ("Teste 0", "Texte Descricao 0", 19.90) - equivalente em java
                 Produto("Teste 1", "Teste Descrição 1", BigDecimal("29.90")),
                 Produto("Teste 2", "Teste Descrição 2", BigDecimal("39.90")),
             )
