@@ -19,7 +19,6 @@ import br.com.fiap.orgs.model.Produto
 //        return produtos.size
 //    }
 
-
 class ListaProdutosAdapter(
     private val context: Context,
     private val produtos: List<Produto>
